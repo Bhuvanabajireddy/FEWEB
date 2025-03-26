@@ -4,60 +4,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sri Bhuvana Bajireddy - Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <header>
+<body class="bg-light">
+    <header class="text-center py-4 bg-primary text-white">
         <h1>Sri Bhuvana Bajireddy</h1>
-        <p>Email: <a href="mailto:sribhuvanabajireddy@gmail.com">sribhuvanabajireddy@gmail.com</a></p><p>Phone: 9347527538</p>
+        <p>Email: <a href="mailto:sribhuvanabajireddy@gmail.com" class="text-white">sribhuvanabajireddy@gmail.com</a></p>
+        <p>Phone: 9347527538</p>
         <p>Location: Hyderabad, Telangana</p>
-        <p>GitHub: <a href="https://github.com/bhuvanabajireddy" target="_blank">github.com/bhuvanabajireddy</a></p>
+        <p>GitHub: <a href="https://github.com/bhuvanabajireddy" target="_blank" class="text-white">github.com/bhuvanabajireddy</a></p>
     </header>
-    
-    <section id="skills">
-        <h2>Technical Skills</h2>
-        <ul>
-            <li><strong>Programming:</strong> C++, Python, Java</li>
-            <li><strong>Databases:</strong> MongoDB, MySQL</li>
-            <li><strong>Web Development:</strong> HTML, CSS, React.js</li>
-            <li><strong>Tools:</strong> AWS, Docker, Git, GitHub</li>
-            <li><strong>Frameworks & AI:</strong> UNET, UNETR, GenAI, RAG, Unreal</li>
-        </ul>
-    </section>
-    
-    <section id="projects"><h2 class="projects">Class Projects</h2>
-        <h3>Java Maven Project</h3>
-        <p><a href="https://github.com/Bhuvanabajireddy/SampleMavenJavaProject.git" target="_blank">GitHub Repository</a></p>
-        <h3>Web Project</h3>
-        <p><a href="https://github.com/Bhuvanabajireddy/exterWebProjMav.git" target="_blank">GitHub Repository</a></p>
-        <h2>Projects</h2>
-        <h3>Path GenAI</h3>
-        <p>Developed a web application that generates customized learning paths based on user-selected courses, skill levels, and quiz results. Integrated AI-powered roadmaps and step-by-step learning recommendations.</p>
-        <p><a href="https://learning-path-gen.vercel.app/" target="_blank">Live Demo</a></p>
-        
-        <h3>GenAI Med3D</h3>
-        <p>Built a web app for lung segmentation, pulmonary nodule classification, and liver segmentation using GenAI on 3D medical images.</p>
-    </section>
-    
-    <section id="education">
-        <h2>Education</h2>
-        <p><strong>Bachelor of Technology in Computer Science and Engineering</strong></p>
-        <p>Keshav Memorial Institute of Technology, Hyderabad, Telangana</p>
-        <p>Cumulative GPA: 8.6/10.0</p>
-    </section>
-    
-    <section id="soft-skills">
-        <h2>Soft Skills</h2>
-        <ul>
-            <li>Communication Skills</li>
-            <li>Teamwork</li>
-            <li>Resilience</li>
-            <li>Adaptability</li>
-        </ul>
-    </section>
-    
-    <footer>
+
+    <div class="container mt-4">
+        <section id="skills" class="mb-4">
+            <h2 class="mb-3">Technical Skills</h2>
+            <ul class="list-group">
+                <li class="list-group-item"><strong>Programming:</strong> C++, Python, Java</li>
+                <li class="list-group-item"><strong>Databases:</strong> MongoDB, MySQL</li>
+                <li class="list-group-item"><strong>Web Development:</strong> HTML, CSS, React.js</li>
+                <li class="list-group-item"><strong>Tools:</strong> AWS, Docker, Git, GitHub</li>
+                <li class="list-group-item"><strong>Frameworks & AI:</strong> UNET, UNETR, GenAI, RAG, Unreal</li>
+            </ul>
+        </section>
+
+        <section id="projects" class="mb-4">
+            <h2>Class Projects</h2>
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h3 class="card-title">Java Maven Project</h3>
+                    <p><a href="https://github.com/Bhuvanabajireddy/SampleMavenJavaProject.git" target="_blank">GitHub Repository</a></p>
+                </div>
+            </div>
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h3 class="card-title">Web Project</h3>
+                    <p><a href="https://github.com/Bhuvanabajireddy/exterWebProjMav.git" target="_blank">GitHub Repository</a></p>
+                </div>
+            </div>
+
+            <h2>Projects</h2>
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h3 class="card-title">Path GenAI</h3>
+                    <p>Developed a web application that generates customized learning paths based on user-selected courses, skill levels, and quiz results. Integrated AI-powered roadmaps and step-by-step learning recommendations.</p>
+                    <a href="https://learning-path-gen.vercel.app/" target="_blank" class="btn btn-primary">Live Demo</a>
+                </div>
+            </div>
+
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h3 class="card-title">GenAI Med3D</h3>
+                    <p>Built a web app for lung segmentation, pulmonary nodule classification, and liver segmentation using GenAI on 3D medical images.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="mb-4">
+            <h2>Education</h2>
+            <p><strong>Bachelor of Technology in Computer Science and Engineering</strong></p>
+            <p>Keshav Memorial Institute of Technology, Hyderabad, Telangana</p>
+            <p>Cumulative GPA: 8.6/10.0</p>
+        </section>
+
+        <section id="soft-skills" class="mb-4">
+            <h2>Soft Skills</h2>
+            <ul class="list-group">
+                <li class="list-group-item">Communication Skills</li>
+                <li class="list-group-item">Teamwork</li>
+                <li class="list-group-item">Resilience</li>
+                <li class="list-group-item">Adaptability</li>
+            </ul>
+        </section>
+    </div>
+
+    <footer class="text-center py-3 bg-dark text-white">
         <p>&copy; 2025 Sri Bhuvana Bajireddy</p>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
